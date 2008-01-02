@@ -10,6 +10,7 @@ Release:        %{release}
 Source:         http://savannah.nongnu.org/download/atool/%{package}-%{version}.tar.bz2
 URL:            http://www.nongnu.org/atool/
 License:        GPL
+BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 BuildArch:	noarch
 Requires:	perl
 
