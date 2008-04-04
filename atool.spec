@@ -1,13 +1,13 @@
-%define package atool
+%define name atool
 %define version 0.33.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:        A script for managing file archives of various types
-Name:           %{package}
+Name:           %{name}
 Group:		Archiving/Compression
 Version:        %{version}
 Release:        %{release}
-Source:         http://savannah.nongnu.org/download/atool/%{package}-%{version}.tar.bz2
+Source:         http://savannah.nongnu.org/download/atool/%{name}-%{version}.tar.bz2
 URL:            http://www.nongnu.org/atool/
 License:        GPL
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
