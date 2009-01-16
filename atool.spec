@@ -1,6 +1,6 @@
 %define name atool
 %define version 0.35.0
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary:        A script for managing file archives of various types
 Name:           %{name}
@@ -8,9 +8,9 @@ Group:		Archiving/Compression
 Version:        %{version}
 Release:        %{release}
 Source:         http://savannah.nongnu.org/download/atool/%{name}-%{version}.tar.gz
-Patch: atool-0.34.0-bash-completion.patch
+Patch: atool-0.35.0-bash-completion.patch
 URL:            http://www.nongnu.org/atool/
-License:        GPL
+License:        GPLv2+
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 BuildArch:	noarch
 Requires:	perl
@@ -27,7 +27,7 @@ files in archives), and acat (for extracting files to stdout).
 
 %prep
 %setup -q
-%patch -p1
+%patch -p1 -b .bash-completion
 
 %build
 %configure2_5x
