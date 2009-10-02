@@ -1,6 +1,6 @@
 %define name atool
 %define version 0.37.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:        A script for managing file archives of various types
 Name:           %{name}
@@ -8,7 +8,7 @@ Group:		Archiving/Compression
 Version:        %{version}
 Release:        %{release}
 Source:         http://savannah.nongnu.org/download/atool/%{name}-%{version}.tar.gz
-Patch: atool-0.36.0-bash-completion.patch
+Patch: atool-0.37.0-bash-completion.patch
 URL:            http://www.nongnu.org/atool/
 License:        GPLv2+
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
