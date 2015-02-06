@@ -1,6 +1,6 @@
 %define name atool
 %define version 0.39.0
-%define release %mkrel 1
+%define release 2
 
 Summary:        A script for managing file archives of various types
 Name:           %{name}
