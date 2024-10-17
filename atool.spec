@@ -5,7 +5,7 @@ Version:        0.39.0
 Release:        2
 Source:         http://savannah.nongnu.org/download/atool/%{name}-%{version}.tar.gz
 Patch: atool-0.37.0-bash-completion.patch
-URL:            http://www.nongnu.org/atool/
+URL:            https://www.nongnu.org/atool/
 License:        GPLv2+
 BuildArch:	noarch
 Requires:	perl
