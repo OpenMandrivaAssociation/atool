@@ -10,6 +10,11 @@ License:        GPLv2+
 BuildArch:	noarch
 Requires:	perl
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 atool is a script for managing file archives of various types (tar,
 tar+gzip, zip, etc). The main command is probably 'aunpack' which
